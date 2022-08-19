@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(./images/tribute-page-main-image.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.heading{
+    text-align: center;
+    margin-top: 100px;
+    color: black;
+}
+#head{
+    font-size:1.8cm;
+}
+#subheading{
+    font-size: 18px;
+    margin-top: 10px;
+}
+#content1{
+    
+    margin: auto;
+    width: 90%;
+   
+}
+form{
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 40px;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top:10px;
+    padding-bottom: 60px;
+}
+form .box{
+    width: 98%;
+    height:3em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+#option1 select{
+    width: 98%;
+    height: 2.7em;
+    position: relative;
+    bottom: 10px;
+    border-radius: 5px;
+}
+
+#content2 textarea{
+    height: 130px;
+    width: 90%;
+}
+button{
+    width: 90%;
+    height: 3.7em;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(52, 167, 52);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    
+    border: none;
+}
+button:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
